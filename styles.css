@@ -1,0 +1,93 @@
+html {
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(231, 220, 11);
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+header>p {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0% auto;
+    background-color: rgb(219, 214, 208);
+    padding: 1rem;
+    margin-top: 0.3rem;
+}
+
+header {
+    background-color: rgba(154, 63, 7, 0.68);
+    padding: 0.3rem;
+    max-width: 100%;
+    margin: 0%;
+
+}
+
+img {
+    width: 50%;
+}
+
+h2,
+h3 {
+    color: rgb(118, 39, 7);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section>section {
+    margin-top: 5rem;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+div>p {
+    margin: 5rem;
+}
+
+nav,
+.center {
+    margin: 0 auto;
+}
+
+nav>a {
+    text-decoration: none;
+    color: rgb(0, 136, 255);
+
+
+}
+
+a:hover {
+    background-color: rgb(165, 163, 163);
+    cursor: pointer;
+    color: rgb(247, 247, 20);
+
+}
+
+.second-container {
+    width: fit-content;
+    max-width: 960px;
+    margin: 0% auto;
+}
+
+.second-container p {
+    color: white;
+    padding: 2rem;
+}
+
+.background {
+    background-color: rgb(219, 214, 208);
+}
