@@ -1,5 +1,6 @@
 html {
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -17,26 +18,52 @@ p {
 header>p {
     text-align: center;
     font-size: 1.7rem;
+    color: #ffff;
 }
 
 .container {
-    max-width: 960px;
-    margin: 0% auto;
+    max-width: 1280px;
     background-color: rgb(219, 214, 208);
     padding: 1rem;
-    margin-top: 0.3rem;
+    margin: 0% auto;
 }
 
 header {
     background-color: rgba(154, 63, 7, 0.68);
-    padding: 0.3rem;
-    max-width: 100%;
-    margin: 0%;
+    padding: 1rem;
+    width: 100%;
+}
 
+ul {
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+}
+
+ul a {
+    color: rgb(231, 220, 11);
 }
 
 img {
     width: 50%;
+}
+
+.container>p {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+
+div {
+    display: flex;
+}
+
+div>p {
+    margin: 5rem;
+    color: #ffff;
+    background-color: rgba(154, 63, 7, 0.68);
+    padding: 3%;
+    border-radius: 5%;
 }
 
 h2,
@@ -44,53 +71,92 @@ h3 {
     font-family: serif;
     color: rgb(118, 39, 7);
     font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-section>section {
-    margin-top: 5rem;
-}
-
-div {
-    display: flex;
-    flex-direction: row;
     text-align: center;
 }
 
-div>p {
-    margin: 5rem;
+section>section {
+    margin-top: 1rem;
+    background-color: beige;
+    padding: 2%;
+    border-radius: 3%;
 }
 
-nav,
-.center {
-    margin: 0 auto;
+.last-p {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #030303;
+    background-color: beige;
+    padding: 2rem;
+    border-radius: 2rem;
 }
 
-nav>a {
+.text-centered {
+    text-align: center;
+}
+
+.background-color {
+    color: #ffff;
+    background-color: rgba(154, 63, 7, 0.68);
+    padding: 2rem;
+    border-radius: 2rem;
+    width: 100%;
+}
+
+a {
     text-decoration: none;
-    color: rgb(0, 136, 255);
+    color: rgb(234, 8, 8);
+    padding: 2px;
+}
 
+.links a {
+    color: rgb(234, 8, 8);
+    margin-left: 47%;
+}
 
+.links h2 {
+    padding-bottom: 1rem;
 }
 
 a:hover {
-    background-color: rgb(165, 163, 163);
     cursor: pointer;
-    color: rgb(247, 247, 20);
-
+    color: whitesmoke;
+    background-color: rgba(154, 63, 7, 0.68);
+    padding: 2px;
+    border-radius: 20px;
 }
 
 .second-container {
     width: fit-content;
-    max-width: 960px;
+    max-width: 1280px;
     margin: 0% auto;
 }
 
-.second-container p {
+.second-container>p {
     color: white;
-    padding: 2rem;
+    padding: 0 1rem 1rem 1rem;
 }
 
 .background {
     background-color: rgb(219, 214, 208);
+}
+
+@media screen and (max-width: 860px) {
+    div {
+        display: block;
+    }
+
+    img {
+        width: 430px;
+    }
+
+    div>p {
+        color: #ffff;
+        background-color: rgba(154, 63, 7, 0.68);
+        margin: auto;
+        width: 100%;
+    }
+
+    .links a {
+        margin-left: 40%;
+    }
 }
